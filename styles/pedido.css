@@ -1,0 +1,280 @@
+/* CSS DO FORMULÁRIO */
+
+
+*{
+
+  margin: 0%;
+  padding: 0%;
+}
+
+h4{
+  color: white;
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  border-radius: 20px;
+  padding-bottom: 50px;
+
+
+}
+
+
+form {
+  background-color:rgba(119, 116, 106, 0.719); 
+  border-radius: 10px;
+
+
+}
+#nome, #endereco, #cupom{
+  width:300px;
+  height:3em;
+  
+  
+}
+
+.nomenome{
+  margin: -10px;
+}
+
+#troco, #numero {
+  width: 100px;
+  height: 3em;
+}
+
+#cartao, #dinheiro{
+  margin: 30px;
+}
+
+fieldset {
+  border: none;
+}
+
+body, input, input[type="radio"], textarea {
+      font-size: 1em;
+}
+
+.grupo:before, .grupo:after {
+    content: " ";
+    display: table;
+}
+
+.grupo:after {
+    clear: both;
+}
+
+.campo {
+    margin-bottom: 1em;
+    
+    
+}
+
+.campo label {
+    margin-bottom: 0.2em;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+}
+
+fieldset.grupo .campo {
+    float:  left;
+}
+
+
+/* #pedido input, #pedido textarea {
+  
+} */
+.campo input[type="text"]{
+    padding: 0.2em;
+    border: 1px solid #CCC;
+    border-radius: 8px;
+    outline: none;
+    margin-top: 5px;
+
+
+}
+.campo textarea {
+  width: 300px;    
+  border: 1px solid #CCC;
+  font-family: 'Noto Sans JP', sans-serif;
+  border-radius: 8px;
+  outline: none;
+
+
+
+}
+
+
+/*-- Finalizar Pedido e enviar para o Whatsapp --- */
+
+
+.botao {
+    height:2.5em;
+    font-size: 1.0em;
+    background:rgba(133, 233, 3, 0.644);
+    border-radius: 8px;
+    margin-bottom: 1em;
+    color: #FFF;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.botao:hover {
+    background: green;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+}
+
+.botao, input[type="radio"] {
+    cursor: pointer;
+}
+  
+
+/*-- Cartão e dinheiro --- */
+
+.cartaozinho img{
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  margin: 15px;
+  -webkit-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+}
+
+.cartaozinho:hover{
+  background-color: green;
+  border-radius: 50px;
+  border: solid white;
+  display: block;
+  opacity: 0.8;
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+
+}
+
+.dinheirinho img{
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  margin: 15px;
+  -webkit-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+
+}
+
+
+
+.dinheirinho:hover{
+  background-color: green;
+  border-radius: 50px;
+  border: solid white;
+  opacity: 0.8;
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+#pagpag input{
+  
+  display: none;
+  width: auto;
+  height: auto;
+}
+
+label {
+  color: white;
+  padding: 5px;
+}
+
+#dinheiro #credito #debito{
+  margin: 10px;
+  }
+  
+
+  .forma_de_pag{
+    padding-bottom: 15px;
+  }
+
+
+
+/*-- Campo nome --- */
+
+fieldset #nome{
+  margin: -10px;
+  margin-top: 5px;
+
+
+}
+
+fieldset #nome label{
+  margin: -10px;
+
+}
+
+#box-total{
+  width: auto;
+  height: auto;
+  color: red;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+
+
+.grupo .box{
+  border-radius: 20px;
+  height: 40px;
+}
+
+  /*-- Botão "Voltar ao Menu" --- */
+
+
+  .back{
+    text-align: center;
+    }
+  
+  .retorno{
+  color: white;
+  align-items: center;
+  text-align: center;
+  margin-top: 50px;
+  background-color: rgba(255, 0, 0, 0.918);
+  border-radius: 20px;
+  margin: 3px;
+  font-size: 15px;
+  width: 50px;
+  height: 30px;
+  
+  
+  
+  }
+  
+  button .retorno{
+  
+  position:relative;
+  width: auto;
+  height: auto;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: center;
+  width: 100px;
+  
+  }
+  
+
+i {
+font-size: 25px;
+}
+
+

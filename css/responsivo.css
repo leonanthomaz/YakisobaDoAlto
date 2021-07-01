@@ -1,0 +1,762 @@
+
+@media screen and (max-width: 1500px) {
+
+
+    
+
+  .itens-container{
+    display: grid;
+  }
+
+}
+
+
+@media screen and(min-width: 1200px) {
+ 
+  
+
+  .itens-container{
+    display: grid;
+  }
+  
+}
+
+
+
+@media screen and(min-width: 900px) {
+  
+  .limparcarrinho{
+      margin-top: 50px;
+  }
+  #btn-menu{
+
+      padding: 10px;
+  }
+
+  .itens-container{
+    display: grid;
+  }
+
+  
+
+}
+
+
+@media screen and (max-width: 1000px) {
+.itens-container{
+  display: table;
+  max-width: 500px;
+  max-height: 300px;
+
+
+}
+
+
+.flex-container .manuzao{
+  padding-bottom: 50px;
+}
+
+#bebidas{
+  width: auto;
+  height: auto;
+}
+
+
+}
+
+@media screen and (max-width: 765px) {
+
+
+.number-input input[type=number] {
+  width: auto;
+}
+
+footer{
+  text-align: center;
+  padding: 5px;
+  background-color: transparent;
+  color: rgb(0, 0, 0);
+}
+  
+
+  #logo1{
+      width: 200px;
+      height: auto;
+  }
+
+  #logo1 img{
+      border: 5px solid rgba(29, 28, 28, 0.562);
+      
+      margin-top: 50px;
+
+    }
+
+    .divinput{
+
+
+      align-items: center;
+     
+      float: left;
+    
+    
+  
+  }
+
+
+
+  .fieldset{
+    width: auto;
+    height: auto;
+    
+    flex-direction:flex;
+    align-items: center;
+    margin-top: auto;
+  }
+  
+  
+    
+
+    h1{
+      align-items: center;
+      text-align: center;
+      color: white;
+      font-size: 30px;
+    }
+
+    header{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      
+      padding: 10px 10px 20px 20px;
+      background-color: transparent;
+  
+  
+  }
+
+ 
+   
+
+    
+
+    .logo{
+      border: solid white;
+    }
+   
+    .logo img{
+       align-items: center;
+       width: 300apx;
+       height: 300px;
+       margin-left: auto;
+       margin-right: auto;
+       align-items: center;
+       
+    }
+
+    .logo img{
+      align-items: center;
+      text-align: center;
+    }
+
+    .marque_a_caixa{
+      font-size: 13px;
+      margin-top: 10px;
+      text-align: center;
+      margin: 10px;
+      color: transparent;
+      border-top: solid black;
+      align-items: center;
+      
+    }
+
+    
+    
+
+  #subtotal-box h2{
+      font-size: 20px;
+      margin-top: -3px;
+  }
+
+ 
+
+  #caixadagaleria{
+      width: auto;
+      height: auto;
+      margin-top: 10px;
+      padding: 5px;
+      align-items: center;
+  
+  
+  }
+
+  
+
+
+  /*Tela principal*/
+
+  
+  
+
+  
+  h3{
+      margin: 0px;
+      text-align: center;
+      color: white;
+      font-size: 20px;
+      margin-top: 20px;
+  
+  }
+  
+
+  #bt_menu:checked ~ .menu {
+   margin-left: 0;
+  }
+
+  .menu {
+   margin-top: 5px;
+   margin-left: -100%;
+   transition: all .4s;
+   
+  }
+
+  .menu ul li {
+   width: 100%;
+   float: none;
+  }
+  .menu ul ul {
+   position: static;
+   overflow: hidden;
+   max-height: 0;
+   transition: all .8s;
+   
+  }
+  .menu ul li:hover ul {
+   height: auto;
+   max-height: 200px;
+
+  }
+
+  
+  #logof{
+      text-align: center;
+      margin-top: 20px;
+
+      
+  }
+
+  #logof img{
+      text-align: center;
+      margin-top: 20px;
+      border: 5px solid white;
+
+
+      
+  }
+
+  #logoff img{
+      text-align: center;
+      margin-top: 20px;
+     
+
+
+      
+  }
+
+ 
+  #destaque p{
+      text-indent:10px;
+      margin-top: 30px;
+      font-size: 18px;
+      margin-top: 20px;
+      font-size: 20px;
+      color: rgb(255, 255, 255);
+      text-align: center;
+      
+      
+
+  }
+
+  
+
+  
+  
+
+  
+}
+
+
+
+@media screen and (min-width: 765px){
+
+
+  /*página de principal*/
+
+  
+  
+ 
+  .dinheirinho img{
+    max-width: 100px;
+   
+  
+  }
+  .dinheirinho:hover{
+    max-width: 100px;
+  }
+
+  .cartaozinho img{
+    max-width: 100px;
+    
+   
+  }
+  
+  .cartaozinho:hover{
+    
+    max-width: 100px;
+
+  
+  }
+
+  
+  .menu img{
+      align-items: center ;
+  }
+
+     
+    #logo1{
+      width: 300px;
+      height: auto;
+  }
+    
+
+      #logo1 img{
+        align-items: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 500px;
+        height: auto;
+        margin-top: 50px;
+        border: 5px solid rgba(29, 28, 28, 0.562);
+      
+      }
+
+    #topo img{
+      border: 10px solid white;
+
+  }
+
+  #logof img{
+    text-align: center;
+    margin-top: 20px;
+    border: 5px solid white;
+
+
+    
+}
+    
+    .campo{
+
+    min-width: 200px;
+    min-height: auto;
+
+    }
+   
+
+    .campo textarea {
+      
+      min-width: 200px;
+      min-height: auto;
+
+    
+    }
+
+    
+
+
+    header{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      
+      padding: 10px 10px 20px 20px;
+      background-color: transparent;
+  
+  
+  }
+
+  h1{
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+  }
+
+  /*-- CSS DE LANCHES e BEBIDAS --- */
+
+
+    header{
+      align-items: center;
+    
+      margin-left: auto;
+      margin-right: auto;
+      align-items: center;
+  }
+
+  .logo{
+    align-items: center;
+    width: 500apx;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    border: solid white;
+ }
+
+  .logo img{
+    align-items: center;
+    width: 400apx;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+ }
+
+ section{
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.divinput{
+
+
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 500px;
+  max-height: 500px;
+
+
+
+}
+
+
+
+  #subtotal-box h2{
+      font-size: 25px;
+      margin-top: -3px;
+  }
+
+
+ 
+
+ header h1{
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin-top: 20px;
+  font-size: 30px;
+  
+}
+
+#caixadagaleria{
+  width: auto;
+  height: auto;
+  margin-top: 10px;
+  padding: 5px;
+
+
+}
+
+
+
+
+  h3{
+      margin: 0px;
+      text-align: center;
+      color: white;
+      font-size: 20px;
+      margin-top: 200px;
+
+  }
+
+
+  footer{
+      text-align: center;
+      padding: 5px;
+      background-color: transparent;
+      color: white;
+  }
+  
+  footer a{
+      text-decoration: none;
+      color: yellow;
+  }
+
+  /*página de contato*/
+
+  .redessociais{
+      display: flex;
+      flex-direction:row;
+      align-items: flex-start;
+      margin: 0 auto;
+      margin-top: 20px;
+      text-align: center;
+      border-radius: 10px;
+      margin-top: 10px;
+
+  }
+  
+  
+
+
+}
+
+@media screen and (max-width: 600px) {
+
+  
+  
+
+.redessociaiss{
+visibility: hidden;
+}
+
+
+
+header{
+background-image: url(../img/banner\ yaki.jpg);
+background-size: cover;
+border: solid rgba(117, 112, 104, 0.534);
+border-radius: 7px;
+
+
+}
+
+.bvp{
+border: solid rgba(22, 21, 21, 0.829);
+background-color: rgba(255, 255, 255, 0.692);
+color: rgb(223, 28, 28);
+font-size: 30px;
+border-radius: 10px;
+width: auto;
+
+}
+
+
+
+
+
+
+
+}
+
+@media screen and (min-width: 600px) {
+
+  
+
+header{
+  background-image: url(../img/banner_sobre_1920x530px.jpg);
+ background-size: cover;
+ border: solid rgba(117, 112, 104, 0.534);
+  border-radius: 7px;
+  
+
+}
+
+.pagpag input{
+    width: 60px;
+    height: 60px;
+}
+
+.redessociaiss{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+
+    
+
+}
+
+.trsociais{
+  width: auto;
+  border: solid rgba(117, 112, 104, 0.534);
+  background-color: rgb(241, 233, 231);
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.redessociaiss img{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    border: solid rgba(0, 0, 0, 0.534);
+
+
+}
+
+
+.bvp{
+  border: solid rgba(22, 21, 21, 0.829);
+  background-color: rgba(255, 255, 255, 0.692);
+  color: rgb(223, 28, 28);
+  font-size: 30px;
+  border-radius: 10px;
+  width: 600px;
+
+}
+
+
+
+
+
+}
+
+@media screen and (min-width: 450px) {
+
+  .container{
+    display: table;
+  }
+  
+
+ 
+  
+}
+
+@media screen and (max-width: 450px){
+
+
+
+
+ 
+  
+
+  #nome, #endereco, #cupom{
+    width:200px;
+    height:2em;
+    
+    
+  }
+
+  .campo textarea {
+    width: 200px;    
+    
+  
+  
+  
+  }
+  
+  
+
+
+.titulopedidos{
+
+  width: auto;
+  margin-top: 0px;
+}
+
+
+
+#subtotal-box h2{
+  font-size: 18px;
+  margin-top: -3px;
+}
+
+
+
+#pesquisa{
+  width: 210px ;
+  
+}
+
+#destaque p{
+  margin-top: 30px;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+
+  
+
+}
+
+.redessociais{
+  align-items: center;
+  margin-right: 50px;
+}
+
+ 
+
+}
+
+@media screen and (max-width: 330px){
+
+.itens-container{
+
+}
+
+.item-info{
+  display: table;
+}
+
+  #logo1{
+      width: 200px;
+      height: auto;
+  }
+
+
+  #logo1 img{
+      width: 100px;
+      height: auto;
+      margin-top: 50x;
+  
+  
+    }
+
+    
+  
+    .marque_a_caixa{
+      font-size: 13px;
+      margin-top: 10px;
+      text-align: center;
+      margin: 10px;
+      color: transparent;
+      border-top: solid black;
+      align-items: center;
+    }
+  
+  
+  
+  .logo img{
+   align-items: center;
+   margin-right: 10px;
+   width: 200px;
+    height: 200px;
+  }
+  
+  
+  
+
+
+  .redessociais{
+      margin-right: 50px;
+  }
+
+  #subtotal-box h2{
+      font-size: 15px;
+      margin-top: -3px;
+  }
+
+
+  #rodape{
+    width: auto;
+    height: 60px;
+    
+}
+
+
+
+
+
+}
+
