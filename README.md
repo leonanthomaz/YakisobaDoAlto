@@ -12,18 +12,7 @@
 
 ## 💻 Resumo:
 
- Basicamente é um projeto implementado para a facilitação de vendas para o seguimento comercial. Consiste em um cadápio digital, com repositório de produtos, carrinho de compras e integração final com Whatsapp. O usuário escolhe o produto e, com o total somado na tela, envia toda a descrição da compra para o whatsapp da empresa.
-
- ## Melhorias que faltam:
-
-- Implementar uma maneira mais prática de organizar o array do carrinho.
-- Realizar integração com banco de dados.
-- Alterar a disposição das telas escondidas, podendo ser implementada em Vue.js.
-- Implementação do Bootstrap (o projeto de responsividade foi feito manualmente, contendo pequenas falhas, já que foi usado inicialmente para estudo).
-
-## Gostaria de colaborar?
-
-Fique a vontade para realizar suas modicações. Estou em constante aprendizado e toda ajuda será mais que bem vinda ao projeto!  :D
+ Projeto de estudos em JQuery.
 
 ## :rocket: Link:
 
